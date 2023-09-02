@@ -11,7 +11,7 @@ Applying the ETL (Extract, Transform, Load) method to clean and preprocess the r
 - **data_cleaning.ipynb**:  Data cleaning.
 - **database_import.ipynb**:  Import the cleaned data into the database.
 
-## Database relationship diagram
+## ER Diagram
 
 ![Entity Relationship Diagram](er_diagram.png)
 
