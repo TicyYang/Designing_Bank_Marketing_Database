@@ -6,9 +6,12 @@ This project utilizes the Bank Marketing dataset from UC Irvine, sourced from [U
 
 Applying the ETL (Extract, Transform, Load) method to clean and preprocess the raw data and store it in a PostgreSQL database. Designing appropriate table structures based on different attributes and data types, dividing the data into three distinct tables: client, campaign, and economics.
 
-## Data Table Structures
+- **create_database.sql**:  Create the database.
+- **create_tables.sql**:  Create tables.
+- **data_cleaning.ipynb**:  Data cleaning.
+- **database_import.ipynb**:  Import the cleaned data into the database.
 
-Here is the Entity Relationship Diagram (ERD) for the three data tables used in the project:
+## Database relationship diagram
 
 ![Entity Relationship Diagram](er_diagram.png)
 
