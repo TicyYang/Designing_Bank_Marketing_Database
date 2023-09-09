@@ -13,7 +13,6 @@ CREATE TABLE client(
 
 DROP TABLE IF EXISTS campaign;
 CREATE TABLE campaign(
-    campaign_id SERIAL PRIMARY KEY,
     client_id INTEGER references client (id),
     number_contacts INTEGER,
     contact_duration INTEGER,
