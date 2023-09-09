@@ -10,6 +10,7 @@ Applying the ETL (Extract, Transform, Load) method to clean and preprocess the r
 - **create_tables.sql**:  Create client, campaign, economics tables.
 - **data_cleaning.ipynb**:  Data cleaning with PySpark.
 - **database_import.ipynb**:  Import the cleaned data into the database.
+- **sql_query.ipynb**: Test SQL query command.
 
 ## ER Diagram
 
