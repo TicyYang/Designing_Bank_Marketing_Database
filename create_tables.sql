@@ -30,6 +30,7 @@ CREATE TABLE economics(
     client_id INTEGER references client (id),
     emp_var_rate FLOAT,
     cons_price_idx FLOAT,
+    cons_conf_idx FLOAT,
     euribor_three_months FLOAT,
     number_employed FLOAT
 );
