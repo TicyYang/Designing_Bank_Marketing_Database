@@ -4,7 +4,7 @@ This project utilizes the Bank Marketing dataset from UC Irvine, sourced from [U
 
 ## Project Overview
 
-Applying the ETL (Extract, Transform, Load) method to clean and preprocess the raw data and store it in a PostgreSQL database. Designing appropriate table structures based on different attributes and data types, dividing the data into three distinct tables: client, campaign, and economics.
+Applying ETL (Extract, Transform, Load) with PySpark to clean and preprocess raw data and store into a PostgreSQL database. Designing appropriate table structures based on different attributes and data types, dividing the data into three distinct tables: client, campaign, and economics.
 
 - **create_database.sql**:  Create the database.
 - **create_tables.sql**:  Create client, campaign, economics tables.
