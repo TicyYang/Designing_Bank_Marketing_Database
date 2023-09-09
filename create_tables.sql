@@ -1,4 +1,4 @@
--- Create table client, campaign, economics
+-- Create the 'client' table
 DROP TABLE IF EXISTS client;
 CREATE TABLE client(
     id SERIAL PRIMARY KEY,
@@ -11,6 +11,7 @@ CREATE TABLE client(
     loan BOOLEAN
 );
 
+-- Create the 'campaign' table
 DROP TABLE IF EXISTS campaign;
 CREATE TABLE campaign(
     client_id INTEGER references client (id),
@@ -23,6 +24,7 @@ CREATE TABLE campaign(
     last_contact_date DATE    
 );
 
+-- Create the 'economics' table
 DROP TABLE IF EXISTS economics;
 CREATE TABLE economics(
     client_id INTEGER references client (id),
